@@ -1,0 +1,81 @@
+body,
+.dropdown-menu,
+.navbar-default .navbar-toggle .icon-bar,
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover,
+.print-btn {
+	background-color: #8600ac;
+}
+.navbar-toggle {
+	border-color: #8600ac;
+}
+.print-btn:hover, .a-cell .mark {
+	color: #8600ac !important;
+}
+/*---*/
+.footer,
+.dropdown-menu,
+.form-control,
+.chosen-container-single .chosen-single,
+.user-icon,
+.a-cell {
+	border-color: #a847c3
+}
+.site-title:after {
+	background: #a847c3;
+}
+.dropdown-menu li a:hover {
+	color: #a847c3 !important;
+}
+/*--*/
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:hover {
+    background-color: #690086 !important;
+}
+
+.navbar-default ,
+.footer,
+.chosen-container .chosen-results li.highlighted,
+.main-btn:hover,
+.navbar-default .navbar-nav>.open>a:focus,
+.user-row > div .a-table,
+.user-row  .glyphicon,
+.mark-table .a-cell,
+.back:hover{
+	background: #7b009d !important;
+}
+.back, .print-btn:hover{
+	color: #7b009d;
+}
+.navbar-default {
+	border-color: #450258;
+}
+.main-btn {
+	background-color: #ac47e5;
+}
+/*--*/
+.xcus-inline, .icons-refers div {
+	color: #ce97dd;
+}
+
+.sum, .more-details:hover i{
+	color: #FFD400;
+}
+.b-row-color{
+	background-color:#951eb6;
+}
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav>li>a , .navbar-default .navbar-nav>li>a {
+		color: #8600ac;
+	}
+	.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+		background: #8600ac;
+	}
+	.navbar-default .navbar-collapse{
+		border-color: #8600ac;
+	}
+}
+@media (min-width: 487px) and (max-width: 800px) {
+	.first-cell {
+		border-color:#a847c3 !important;
+	}
+}
